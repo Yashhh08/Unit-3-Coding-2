@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 20%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+  padding-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  background-color: teal;
+  border-radius: 20px;
+}
+
+#name,
+#number,
+#address {
+  width: 90%;
+  margin: auto;
+}
+
+#confirm {
+  width: 40%;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#confirm:hover {
+  background-color: black;
+  color: white;
+}
